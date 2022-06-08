@@ -1,7 +1,7 @@
-userName = "Zoé";
-userQuestion = "Will I get rich?";
-randomNumber = Math.floor(Math.random() * 8);
-eightBall = "";
+let userName = "Zoé";
+let userQuestion = "Will I get rich?";
+let randomNumber = Math.floor(Math.random() * 8);
+let eightBall = "";
 
 userName ? console.log(`Hello, ${userName}!`) : console.log("Hello!");
 userName
